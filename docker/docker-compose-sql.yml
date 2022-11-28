@@ -1,0 +1,54 @@
+---
+version: '3'
+# Example based on https://github.com/Stefen-Taime/docker-stack
+
+services:
+  postgres:
+    container_name: ${CONTAINER_NAME}
+    image: 'postgres:${PG_VER}'
+    hostname: ${HOSTNAME}
+    ports:
+      - "5432:${PORT}"
+    environment:
+      TZ: ${TZ_SET}
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_SRC_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    #    PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - ./scripts:/scripts
+    networks:
+      - docker-stack
+      
+
+  mysql:
+    build:
+      context: ./mysql
+    restart: always
+    environment:
+      - MYSQL_DATABASE=${MY_DB_NAME}
+      - MYSQL_USER=${MY_DB_USER}
+      - MYSQL_PASSWORD=${MY_DB_PASSWORD}
+      - MYSQL_ROOT_PASSWORD=${MY_DB_ROOT_PASSWORD}
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./mysql/data:/var/lib/mysql 
+    networks:
+      - docker-stack   
+
+
+  adminer:
+    image: adminer:latest
+    ports:
+    - 8085:8080/tcp
+    deploy:
+     restart_policy:
+       condition: on-failure
+    networks:
+      - docker-stack  
+   
+    
+networks:
+  docker-stack:
