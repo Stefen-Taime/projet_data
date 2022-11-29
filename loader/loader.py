@@ -5,6 +5,7 @@ import argparse
 import warnings
 from dotenv import load_dotenv
 from minio_load import MinioStorage
+from mongodb_load import MongoDB
 
 # warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -30,3 +31,8 @@ if __name__ == '__main__':
 
     if sys.argv[1] == 'minio':
         MinioStorage().write_movies_json()
+        
+        
+    # nosql databases
+    if sys.argv[1] == 'mongodb':
+        MongoDB().insert_rows()        
