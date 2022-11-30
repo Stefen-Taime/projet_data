@@ -1,0 +1,54 @@
+version: "3.9"
+
+services:
+  spark:
+    image: "docker.io/bitnami/spark:3.3"
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    ports:
+      - "8080:8080"
+    networks:
+      - streaming-stack
+  spark-worker:
+    image: "docker.io/bitnami/spark:3.3"
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+    networks:
+      - streaming-stack
+
+  spark_notebook:
+    image: "jupyter/pyspark-notebook:spark-3.3.0"
+    ports:
+      - "8888:8888"
+      - "4040-4045:4040-4045"
+    volumes:
+    - $PWD/work:/home/$USER/work
+    networks:
+      - streaming-stack
+    working_dir: /home/$USER/work
+    environment:
+      CHOWN_HOME: "yes"
+      GRANT_SUDO: "yes"
+      NB_UID: 1000
+      NB_GID: 100
+      NB_USER: $USER
+      NB_GROUP: staff
+    user: root
+    deploy:
+     replicas: 1
+     restart_policy:
+       condition: on-failure  
+  
+networks:
+  streaming-stack:
