@@ -1,6 +1,7 @@
 version: "3"
 services:
   mongodb:
+    hostname: mongodb
     image : mongo
     entrypoint: [ "/usr/bin/mongod", "--bind_ip_all"]
     container_name: mongodb

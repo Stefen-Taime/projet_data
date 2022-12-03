@@ -9,11 +9,16 @@ services:
     volumes:
       - ./minio-data:/data
     environment:
-      MINIO_ACCESS_KEY: ${MINIO_ACCESS_KEY}
-      MINIO_SECRET_KEY: ${MINIO_SECRET_KEY}
+      MINIO_ACCESS_KEY: ${ACCESS_KEY}
+      MINIO_SECRET_KEY: ${SECRET_KEY}
     command: server /data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 20s
+      retries: 3
     networks:
-      - docker-stack 
+      - docker-stack
 
 networks:
   docker-stack:
