@@ -51,7 +51,7 @@ class MinioStorage(object):
         # share connection among the function(s)
         client = Minio(minio, access_key, secret_key, secure=False)
 
-        # movies
+        
         entity =  os.getenv("BUCKET")
         name = entity + f'/{entity}_{year}_{month}_{day}_{hour}_{minute}_{second}.json'
         json_data = pd_df_data.to_json(orient="records").encode('utf-8')

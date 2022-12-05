@@ -34,7 +34,7 @@ class MongoDB(object):
         # pandas dataframe
         collection_auto = db['auto']
        
-        # user [df]
+       
         # get records from dataframe
         # insert into collection
         pd_df.reset_index(inplace=True)

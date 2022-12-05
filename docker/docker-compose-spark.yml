@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   spark:
-    image: "docker.io/bitnami/spark:3.3"
+    build: ./spark
     environment:
       - SPARK_MODE=master
       - SPARK_RPC_AUTHENTICATION_ENABLED=no
@@ -10,15 +10,14 @@ services:
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
     ports:
-      - "8080:8080"
+      - 8080:8080
+      - 7077:7077
+      - 4041:4041
     networks:
       - docker-stack
-    links:
-      - minio
-    depends_on:
-      - minio  
+
   spark-worker:
-    image: "docker.io/bitnami/spark:3.3"
+    build: ./spark
     environment:
       - SPARK_MODE=worker
       - SPARK_MASTER_URL=spark://spark:7077
@@ -28,41 +27,40 @@ services:
       - SPARK_RPC_ENCRYPTION_ENABLED=no
       - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
       - SPARK_SSL_ENABLED=no
-    links:
-      - minio
-    depends_on:
-      - minio  
+
+    networks:
+      - docker-stack 
+
+  pyspark-notebook:
+    build:
+      context: ./spark/
+      dockerfile: Dockerfile-notebook
+    working_dir: /home/$USER/work
+    user: root
+    ports:
+      - 8888:8888
+    volumes:
+       - $PWD/work:/home/$USER/work
+    environment:
+      - SPARK_MASTER_URL=spark://spark:7077
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_WORKER_CORES=1
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+      - SPARK_RPC_ENCRYPTION_ENABLED=no
+      - SPARK_LOCAL_STORAGE_ENCRYPTION_ENABLED=no
+      - SPARK_SSL_ENABLED=no
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN}
+      - NB_USER=${USER}
+      - CHOWN_HOME=yes
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+      - NB_UID=1000
+      - NB_GID=100
+      - NB_GROUP=staff
+
     networks:
       - docker-stack
 
-  spark_notebook:
-    image: "jupyter/pyspark-notebook:spark-3.3.0"
-    ports:
-      - "8888:8888"
-      - "4040-4045:4040-4045"
-    volumes:
-    - $PWD/work:/home/$USER/work
-    networks:
-      - docker-stack  
-    working_dir: /home/$USER/work
-    links:
-      - minio
-    depends_on:
-      - minio
-    environment:
-      CHOWN_HOME: "yes"
-      GRANT_SUDO: "yes"
-      NB_UID: 1000
-      NB_GID: 100
-      NB_USER: $USER
-      NB_GROUP: staff
-      JUPYTER_TOKEN: ${JUPYTER_TOKEN}
-      
-    user: root
-    deploy:
-     replicas: 1
-     restart_policy:
-       condition: on-failure  
-  
+
 networks:
-  docker-stack:
+  docker-stack:      

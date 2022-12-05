@@ -20,5 +20,18 @@ services:
     networks:
       - docker-stack
 
+  ccreatebuckets:
+    image: minio/mc
+    depends_on:
+      - minio
+    networks:
+      - docker-stack  
+    entrypoint: >
+      /bin/sh -c "
+      /usr/bin/mc alias set myminio http://minio:${MINIO_PORT} ${ACCESS_KEY} ${SECRET_KEY};
+      /usr/bin/mc mb myminio/${DATA_REPO_BUCKET_NAME};
+      /usr/bin/mc policy set public myminio/${DATA_REPO_BUCKET_NAME};
+      exit 0;
+      "
 networks:
   docker-stack:
