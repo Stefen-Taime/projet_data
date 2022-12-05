@@ -20,7 +20,7 @@ services:
     networks:
       - docker-stack
 
-  ccreatebuckets:
+  createbuckets:
     image: minio/mc
     depends_on:
       - minio
