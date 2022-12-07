@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1670278755546,"sparkVersion":"3.2.1","uid":"VectorAssembler_7ceda085d0f7","paramMap":{"handleInvalid":"skip","outputCol":"features","inputCols":["cylinders","displacement","acceleration"]},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_7ceda085d0f7__output"}}
