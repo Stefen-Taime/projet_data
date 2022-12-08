@@ -2,7 +2,7 @@
 ### Utilizing of open source technologies for the implementation of a data pipeline
 ## Architecture
 
-![End to end data enginering pipeline](https://cdn-images-1.medium.com/max/5604/1*BP8axIBwerA0Tm9P3mic4w.png)
+![End to end data enginering pipeline](https://github.com/Stefen-Taime/projet_data/blob/main/images/archi.png)
 ## Source Code
 All the source code demonstrated in this post is open-source and available on [GitHub](https://github.com/Stefen-Taime/projet_data).
 git clone https://github.com/Stefen-Taime/projet_data.git
