@@ -11,18 +11,38 @@ services:
       - "5432:${PORT}"
     environment:
       TZ: ${TZ_SET}
+      restart: always
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_SRC_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}  
     #    PGDATA: /var/lib/postgresql/data/pgdata
-    command:
-      - "postgres"
-      - "-c"
-      - "wal_level=logical"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -d $${POSTGRES_DB} -U $${POSTGRES_USER}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
     volumes:
       - ./scripts:/scripts
     networks:
       - docker-stack
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase
+    platform: linux/amd64
+    ports:
+      - "3000:3000"
+    environment:
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: ${POSTGRES_DB}
+      MB_DB_PORT: ${PORT}
+      MB_DB_USER: ${POSTGRES_USER}
+      MB_DB_PASS: ${POSTGRES_SRC_PASSWORD}
+      MB_DB_HOST: ${HOSTNAME}
+    depends_on: 
+      postgres:
+        condition: service_healthy
+    networks:
+      - docker-stack    
       
 
   mysql:
