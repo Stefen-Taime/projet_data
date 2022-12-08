@@ -13,8 +13,12 @@ services:
       TZ: ${TZ_SET}
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_SRC_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
+      POSTGRES_DB: ${POSTGRES_DB}  
     #    PGDATA: /var/lib/postgresql/data/pgdata
+    command:
+      - "postgres"
+      - "-c"
+      - "wal_level=logical"
     volumes:
       - ./scripts:/scripts
     networks:

@@ -1,0 +1,18 @@
+---
+version: '3'
+# Example based on https://github.com/Stefen-Taime/docker-stack
+
+services:
+  adminer:
+    image: adminer:latest
+    ports:
+    - 8085:8080/tcp
+    deploy:
+     restart_policy:
+       condition: on-failure
+    networks:
+      - docker-stack  
+   
+    
+networks:
+  docker-stack:

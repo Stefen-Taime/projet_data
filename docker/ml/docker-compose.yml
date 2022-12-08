@@ -1,0 +1,85 @@
+---
+version: '2'
+services:
+  dbzpostgres:
+    build:
+      dockerfile: Dockerfile
+      context: ./dbz-postgres
+      args:
+        DBZ_CONNECTOR_POSTGRES: 1.9.2
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: DebPostgres1!
+    networks:
+      - docker-stack  
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    depends_on:
+      - dbzpostgres
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 1000
+      ZOOKEEPER_MAX_CLIENT_CNXNS: 180
+    networks:
+      - docker-stack   
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    ports:
+      - 9092:9092
+      - 29092:29092
+      - 9999:9999
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: INTERNAL://kafka:29092,EXTERNAL://localhost:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_JMX_PORT: 9999
+      #KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 1000
+    networks:
+      - docker-stack  
+  kafka-connect-1:
+    build:
+      dockerfile: Dockerfile
+      context: ./dbz-kafka-connect
+    depends_on:
+      - kafka
+    ports:
+      - 8083:8083
+    environment:
+      CONNECT_BOOTSTRAP_SERVERS: "kafka:29092"
+      CONNECT_REST_ADVERTISED_HOST_NAME: kafka-connect-1
+      CONNECT_REST_PORT: 8083
+      CONNECT_GROUP_ID: dbz-cdc-demo
+      CONNECT_CONFIG_STORAGE_TOPIC: dbz-cdc-demo-config
+      CONNECT_OFFSET_STORAGE_TOPIC: dbz-cdc-demo-offsets
+      CONNECT_STATUS_STORAGE_TOPIC: dbz-cdc-demo-status
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: "1"
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: "1"
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
+      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_INTERNAL_KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_INTERNAL_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_PLUGIN_PATH: /usr/share/java
+    networks:
+      - docker-stack
+  kafka-ui:
+    image: "provectuslabs/kafka-ui:master"
+    ports:
+      - "9080:8080"
+    environment:
+      - KAFKA_CLUSTERS_0_NAME=streaming
+      - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka:29092
+    depends_on:
+      - kakfa
+    networks:
+      - docker-stack 
+
+networks:
+  docker-stack:          
