@@ -1,0 +1,407 @@
+[2022-12-14T18:00:01.706+0000] {processor.py:154} INFO - Started process (PID=72) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:00:01.724+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:00:01.725+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:00:01.725+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:00:01.893+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:00:02.159+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:00:02.158+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:00:02.215+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:00:02.215+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:00:02.273+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.572 seconds
+[2022-12-14T18:00:32.897+0000] {processor.py:154} INFO - Started process (PID=126) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:00:32.898+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:00:32.899+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:00:32.899+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:00:32.919+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:00:33.006+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:00:33.005+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:00:33.060+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:00:33.060+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:00:33.128+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.236 seconds
+[2022-12-14T18:01:03.445+0000] {processor.py:154} INFO - Started process (PID=191) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:01:03.487+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:01:03.488+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:01:03.488+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:01:03.547+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:01:03.628+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:01:03.627+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:01:03.734+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:01:03.734+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:01:03.799+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.359 seconds
+[2022-12-14T18:01:34.121+0000] {processor.py:154} INFO - Started process (PID=246) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:01:34.125+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:01:34.167+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:01:34.166+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:01:34.457+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:01:34.867+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:01:34.866+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:01:34.919+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:01:34.919+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:01:35.016+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.962 seconds
+[2022-12-14T18:02:05.409+0000] {processor.py:154} INFO - Started process (PID=301) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:02:05.410+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:02:05.411+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:02:05.411+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:02:05.432+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:02:05.524+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:02:05.524+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:02:05.590+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:02:05.590+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:02:05.707+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.301 seconds
+[2022-12-14T18:02:36.650+0000] {processor.py:154} INFO - Started process (PID=364) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:02:36.652+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:02:36.653+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:02:36.653+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:02:36.674+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:02:36.724+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:02:36.724+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:02:36.801+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:02:36.801+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:02:37.045+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.401 seconds
+[2022-12-14T18:03:07.806+0000] {processor.py:154} INFO - Started process (PID=417) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:03:07.808+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:03:07.809+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:03:07.808+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:03:07.831+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:03:08.209+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:03:08.208+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:03:08.380+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:03:08.379+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:03:08.445+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.645 seconds
+[2022-12-14T18:03:38.544+0000] {processor.py:154} INFO - Started process (PID=478) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:03:38.545+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:03:38.546+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:03:38.546+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:03:38.571+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:03:38.645+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:03:38.645+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:03:38.732+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:03:38.731+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:03:38.804+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.273 seconds
+[2022-12-14T18:04:09.231+0000] {processor.py:154} INFO - Started process (PID=534) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:04:09.237+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:04:09.238+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:04:09.238+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:04:09.301+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:04:09.363+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:04:09.363+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:04:09.417+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:04:09.417+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:04:09.458+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.232 seconds
+[2022-12-14T18:04:40.108+0000] {processor.py:154} INFO - Started process (PID=589) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:04:40.108+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:04:40.109+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:04:40.109+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:04:40.211+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:04:40.472+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:04:40.472+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:04:40.522+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:04:40.522+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:04:40.558+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.493 seconds
+[2022-12-14T18:05:11.274+0000] {processor.py:154} INFO - Started process (PID=653) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:05:11.284+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:05:11.285+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:05:11.285+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:05:11.313+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:05:11.445+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:05:11.445+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:05:11.556+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:05:11.555+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:05:11.635+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.373 seconds
+[2022-12-14T18:05:41.736+0000] {processor.py:154} INFO - Started process (PID=708) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:05:41.737+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:05:41.739+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:05:41.738+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:05:41.791+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:05:41.970+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:05:41.969+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:05:42.064+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:05:42.063+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:05:42.105+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.376 seconds
+[2022-12-14T18:06:12.926+0000] {processor.py:154} INFO - Started process (PID=763) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:06:12.927+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:06:12.927+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:06:12.927+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:06:12.947+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:06:13.099+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:06:13.099+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:06:13.148+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:06:13.148+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:06:13.178+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.257 seconds
+[2022-12-14T18:10:40.836+0000] {processor.py:154} INFO - Started process (PID=71) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:10:40.866+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:10:40.867+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:40.867+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:10:41.041+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:10:41.489+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:41.489+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:tutorial
+[2022-12-14T18:10:41.507+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:41.507+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:tutorial
+[2022-12-14T18:10:41.517+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:41.517+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:tutorial
+[2022-12-14T18:10:41.518+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:41.518+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:10:41.565+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:41.565+0000] {dag.py:2606} INFO - Creating ORM DAG for tutorial
+[2022-12-14T18:10:41.605+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:10:41.605+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:10:41.652+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.833 seconds
+[2022-12-14T18:11:11.976+0000] {processor.py:154} INFO - Started process (PID=89) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:11:11.977+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:11:11.978+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:11:11.978+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:11:12.018+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:11:12.089+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:11:12.089+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:11:12.135+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:11:12.135+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:11:12.186+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.214 seconds
+[2022-12-14T18:11:42.324+0000] {processor.py:154} INFO - Started process (PID=116) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:11:42.395+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:11:42.397+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:11:42.397+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:11:42.417+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:11:42.473+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:11:42.472+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:11:42.520+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:11:42.520+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:11:42.545+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.224 seconds
+[2022-12-14T18:12:12.684+0000] {processor.py:154} INFO - Started process (PID=135) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:12:12.685+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:12:12.686+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:12:12.686+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:12:12.710+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:12:12.782+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:12:12.781+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:12:12.839+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:12:12.839+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:12:12.882+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.202 seconds
+[2022-12-14T18:12:43.121+0000] {processor.py:154} INFO - Started process (PID=153) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:12:43.122+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:12:43.123+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:12:43.123+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:12:43.142+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:12:43.204+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:12:43.204+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:12:43.247+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:12:43.247+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:12:43.292+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.175 seconds
+[2022-12-14T18:13:13.585+0000] {processor.py:154} INFO - Started process (PID=181) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:13:13.693+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:13:13.695+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:13:13.694+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:13:13.724+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:13:13.814+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:13:13.814+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:13:13.882+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:13:13.882+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:13:13.917+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.344 seconds
+[2022-12-14T18:13:44.128+0000] {processor.py:154} INFO - Started process (PID=201) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:13:44.129+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:13:44.130+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:13:44.129+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:13:44.156+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:13:44.225+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:13:44.224+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:13:44.280+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:13:44.279+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:13:44.312+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.189 seconds
+[2022-12-14T18:14:08.308+0000] {processor.py:154} INFO - Started process (PID=231) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:08.318+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:14:08.319+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:08.319+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:08.343+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:08.420+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:08.420+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:14:08.480+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:08.479+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:14:08.561+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.258 seconds
+[2022-12-14T18:14:14.355+0000] {processor.py:154} INFO - Started process (PID=232) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:14.355+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:14:14.356+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:14.356+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:14.378+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:14.441+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:14.441+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:14:14.487+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:14.487+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:14:14.511+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.160 seconds
+[2022-12-14T18:14:38.834+0000] {processor.py:154} INFO - Started process (PID=249) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:38.839+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:14:38.840+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:38.840+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:38.873+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:38.990+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:38.989+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:14:39.048+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:39.047+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:14:39.091+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.266 seconds
+[2022-12-14T18:14:44.715+0000] {processor.py:154} INFO - Started process (PID=259) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:44.716+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:14:44.717+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:44.717+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:44.749+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:14:44.907+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:44.906+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:14:44.991+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:14:44.990+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:14:45.037+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.330 seconds
+[2022-12-14T18:15:09.160+0000] {processor.py:154} INFO - Started process (PID=268) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:09.161+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:15:09.162+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:09.162+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:09.191+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:09.270+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:09.270+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:15:09.319+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:09.319+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:15:09.346+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.192 seconds
+[2022-12-14T18:15:15.071+0000] {processor.py:154} INFO - Started process (PID=277) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:15.072+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:15:15.073+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:15.072+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:15.100+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:15.180+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:15.180+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:15:15.240+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:15.240+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:15:15.278+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.213 seconds
+[2022-12-14T18:15:39.544+0000] {processor.py:154} INFO - Started process (PID=296) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:39.545+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:15:39.546+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:39.546+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:39.584+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:39.680+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:39.680+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:15:39.749+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:39.748+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:15:39.816+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.277 seconds
+[2022-12-14T18:15:45.648+0000] {processor.py:154} INFO - Started process (PID=297) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:45.649+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:15:45.650+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:45.650+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:45.675+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:15:45.877+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:45.876+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:15:45.929+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:15:45.928+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:15:45.959+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.317 seconds
+[2022-12-14T18:16:10.091+0000] {processor.py:154} INFO - Started process (PID=315) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:10.092+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:16:10.092+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:10.092+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:10.124+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:10.223+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:10.223+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:16:10.287+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:10.286+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:16:10.326+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.241 seconds
+[2022-12-14T18:16:16.336+0000] {processor.py:154} INFO - Started process (PID=316) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:16.338+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:16:16.339+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:16.339+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:16.374+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:16.579+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:16.578+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:16:16.722+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:16.721+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:16:16.905+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.576 seconds
+[2022-12-14T18:16:40.490+0000] {processor.py:154} INFO - Started process (PID=333) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:40.491+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:16:40.492+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:40.492+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:40.515+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:40.592+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:40.592+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:16:40.652+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:40.652+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:16:40.682+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.199 seconds
+[2022-12-14T18:16:47.566+0000] {processor.py:154} INFO - Started process (PID=343) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:47.567+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:16:47.568+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:47.567+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:47.586+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:16:47.665+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:47.665+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:16:47.737+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:16:47.737+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:16:47.823+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.260 seconds
+[2022-12-14T18:17:10.894+0000] {processor.py:154} INFO - Started process (PID=358) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:10.896+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:17:10.896+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:10.896+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:10.921+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:11.014+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:11.014+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:17:11.076+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:11.075+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:17:11.110+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.221 seconds
+[2022-12-14T18:17:17.937+0000] {processor.py:154} INFO - Started process (PID=362) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:17.938+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:17:17.939+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:17.939+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:17.961+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:18.024+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:18.023+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:17:18.072+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:18.071+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:17:18.098+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.166 seconds
+[2022-12-14T18:17:48.234+0000] {processor.py:154} INFO - Started process (PID=381) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:48.235+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:17:48.236+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:48.236+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:48.255+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:17:48.316+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:48.315+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:17:48.361+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:17:48.361+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:17:48.386+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.155 seconds
+[2022-12-14T18:18:18.581+0000] {processor.py:154} INFO - Started process (PID=409) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:18:18.582+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:18:18.584+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:18:18.583+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:18:18.614+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:18:18.700+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:18:18.700+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:18:18.754+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:18:18.753+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:18:18.785+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.208 seconds
+[2022-12-14T18:18:48.892+0000] {processor.py:154} INFO - Started process (PID=427) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:18:48.893+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:18:48.895+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:18:48.895+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:18:48.922+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:18:49.010+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:18:49.010+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:18:49.088+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:18:49.088+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:18:49.139+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.254 seconds
+[2022-12-14T18:19:19.377+0000] {processor.py:154} INFO - Started process (PID=454) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:19:19.379+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:19:19.381+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:19:19.380+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:19:19.408+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:19:19.497+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:19:19.497+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:19:19.549+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:19:19.549+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:19:19.580+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.210 seconds
+[2022-12-14T18:19:49.914+0000] {processor.py:154} INFO - Started process (PID=482) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:19:49.917+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:19:49.918+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:19:49.917+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:19:49.942+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:19:50.013+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:19:50.012+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:19:50.076+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:19:50.076+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:19:50.108+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.198 seconds
+[2022-12-14T18:20:20.188+0000] {processor.py:154} INFO - Started process (PID=501) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:20:20.189+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:20:20.190+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:20:20.190+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:20:20.212+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:20:20.275+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:20:20.275+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:20:20.327+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:20:20.327+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:20:20.455+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.272 seconds
+[2022-12-14T18:20:50.644+0000] {processor.py:154} INFO - Started process (PID=519) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:20:50.645+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:20:50.646+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:20:50.646+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:20:50.669+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:20:50.736+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:20:50.736+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:20:50.786+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:20:50.786+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:20:50.819+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.181 seconds
+[2022-12-14T18:21:21.028+0000] {processor.py:154} INFO - Started process (PID=547) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:21:21.029+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:21:21.030+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:21:21.030+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:21:21.052+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:21:21.124+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:21:21.124+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:21:21.183+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:21:21.182+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:21:21.217+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.194 seconds
+[2022-12-14T18:21:51.416+0000] {processor.py:154} INFO - Started process (PID=565) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:21:51.418+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:21:51.419+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:21:51.419+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:21:51.444+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:21:51.516+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:21:51.516+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:21:51.567+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:21:51.567+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:21:51.593+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.182 seconds
+[2022-12-14T18:22:21.706+0000] {processor.py:154} INFO - Started process (PID=584) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:22:21.707+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:22:21.709+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:22:21.708+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:22:21.729+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:22:21.786+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:22:21.786+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:22:21.829+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:22:21.829+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:22:21.850+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.151 seconds
+[2022-12-14T18:22:51.997+0000] {processor.py:154} INFO - Started process (PID=613) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:22:51.998+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:22:51.999+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:22:51.999+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:22:52.023+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:22:52.085+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:22:52.085+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:22:52.150+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:22:52.150+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:22:52.179+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.187 seconds
+[2022-12-14T18:23:22.416+0000] {processor.py:154} INFO - Started process (PID=632) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:23:22.417+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:23:22.418+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:23:22.418+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:23:22.436+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:23:22.491+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:23:22.491+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:23:22.537+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:23:22.537+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:23:22.565+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.152 seconds
+[2022-12-14T18:26:13.140+0000] {processor.py:154} INFO - Started process (PID=74) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:26:13.169+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:26:13.170+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.170+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:26:13.273+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:26:13.758+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.757+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:tutorial
+[2022-12-14T18:26:13.782+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.782+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:tutorial
+[2022-12-14T18:26:13.793+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.793+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:tutorial
+[2022-12-14T18:26:13.793+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.793+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:26:13.826+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.826+0000] {dag.py:2606} INFO - Creating ORM DAG for tutorial
+[2022-12-14T18:26:13.853+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:13.852+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:26:13.883+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.760 seconds
+[2022-12-14T18:26:44.193+0000] {processor.py:154} INFO - Started process (PID=92) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:26:44.194+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:26:44.194+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:44.194+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:26:44.215+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:26:44.274+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:44.274+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:26:44.320+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:26:44.319+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:26:44.573+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.384 seconds
+[2022-12-14T18:27:15.022+0000] {processor.py:154} INFO - Started process (PID=120) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:27:15.022+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:27:15.023+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:27:15.023+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:27:15.041+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:27:15.100+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:27:15.100+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:27:15.147+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:27:15.147+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:27:15.170+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.151 seconds
+[2022-12-14T18:27:45.360+0000] {processor.py:154} INFO - Started process (PID=139) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:27:45.361+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:27:45.362+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:27:45.361+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:27:45.380+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:27:45.435+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:27:45.435+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:27:45.476+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:27:45.476+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:27:45.505+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.148 seconds
+[2022-12-14T18:28:15.815+0000] {processor.py:154} INFO - Started process (PID=165) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:28:15.816+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:28:15.817+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:28:15.817+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:28:15.885+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:28:16.058+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:28:16.057+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:28:16.208+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:28:16.208+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:28:16.269+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.483 seconds
+[2022-12-14T18:28:46.492+0000] {processor.py:154} INFO - Started process (PID=184) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:28:46.494+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:28:46.494+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:28:46.494+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:28:46.519+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:28:46.585+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:28:46.584+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:28:46.640+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:28:46.640+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:28:46.668+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.180 seconds
+[2022-12-14T18:29:16.762+0000] {processor.py:154} INFO - Started process (PID=202) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:29:16.767+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:29:16.768+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:29:16.768+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:29:16.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:29:16.929+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:29:16.929+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:29:16.983+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:29:16.983+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-01T00:00:00+00:00, run_after=2015-06-02T00:00:00+00:00
+[2022-12-14T18:29:17.029+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.273 seconds
+[2022-12-14T18:29:47.311+0000] {processor.py:154} INFO - Started process (PID=251) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:29:47.439+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:29:47.441+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:29:47.441+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:29:47.507+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:29:47.709+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:29:47.709+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:29:47.797+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:29:47.797+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-16T00:00:00+00:00, run_after=2015-06-17T00:00:00+00:00
+[2022-12-14T18:29:47.855+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.554 seconds
+[2022-12-14T18:30:18.217+0000] {processor.py:154} INFO - Started process (PID=294) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:30:18.218+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:30:18.235+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:30:18.235+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:30:18.311+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:30:18.628+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:30:18.628+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:30:18.861+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:30:18.861+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-06-24T00:00:00+00:00, run_after=2015-06-25T00:00:00+00:00
+[2022-12-14T18:30:18.955+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.759 seconds
+[2022-12-14T18:30:49.248+0000] {processor.py:154} INFO - Started process (PID=346) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:30:49.264+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:30:49.265+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:30:49.265+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:30:49.338+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:30:49.552+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:30:49.551+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:30:49.694+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:30:49.694+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-07-04T00:00:00+00:00, run_after=2015-07-05T00:00:00+00:00
+[2022-12-14T18:30:49.802+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.565 seconds
+[2022-12-14T18:31:20.134+0000] {processor.py:154} INFO - Started process (PID=389) to work on /opt/airflow/dags/hello_word.py
+[2022-12-14T18:31:20.143+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/hello_word.py for tasks to queue
+[2022-12-14T18:31:20.144+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:31:20.144+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:31:20.231+0000] {processor.py:766} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /opt/airflow/dags/hello_word.py
+[2022-12-14T18:31:20.452+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:31:20.451+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-12-14T18:31:20.587+0000] {logging_mixin.py:137} INFO - [2022-12-14T18:31:20.587+0000] {dag.py:3340} INFO - Setting next_dagrun for tutorial to 2015-07-21T00:00:00+00:00, run_after=2015-07-22T00:00:00+00:00
+[2022-12-14T18:31:20.703+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/hello_word.py took 0.583 seconds

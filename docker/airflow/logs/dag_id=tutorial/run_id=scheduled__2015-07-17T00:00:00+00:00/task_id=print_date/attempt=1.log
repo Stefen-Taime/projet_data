@@ -1,0 +1,12 @@
+[2022-12-14T18:31:22.734+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: tutorial.print_date scheduled__2015-07-17T00:00:00+00:00 [queued]>
+[2022-12-14T18:31:22.864+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: tutorial.print_date scheduled__2015-07-17T00:00:00+00:00 [queued]>
+[2022-12-14T18:31:22.865+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T18:31:22.865+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2022-12-14T18:31:22.865+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T18:31:23.160+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): print_date> on 2015-07-17 00:00:00+00:00
+[2022-12-14T18:31:23.195+0000] {standard_task_runner.py:55} INFO - Started process 646 to run task
+[2022-12-14T18:31:23.211+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'print_date', 'scheduled__2015-07-17T00:00:00+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/hello_word.py', '--cfg-path', '/tmp/tmp3a81t6lg']
+[2022-12-14T18:31:23.232+0000] {standard_task_runner.py:83} INFO - Job 125: Subtask print_date
+[2022-12-14T18:31:23.731+0000] {task_command.py:376} INFO - Running <TaskInstance: tutorial.print_date scheduled__2015-07-17T00:00:00+00:00 [running]> on host c1557a7da2d6

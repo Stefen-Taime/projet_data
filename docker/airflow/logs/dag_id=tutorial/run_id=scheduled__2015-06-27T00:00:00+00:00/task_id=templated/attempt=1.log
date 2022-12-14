@@ -1,0 +1,43 @@
+[2022-12-14T18:30:49.724+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: tutorial.templated scheduled__2015-06-27T00:00:00+00:00 [queued]>
+[2022-12-14T18:30:49.889+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: tutorial.templated scheduled__2015-06-27T00:00:00+00:00 [queued]>
+[2022-12-14T18:30:49.899+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T18:30:49.908+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2022-12-14T18:30:49.909+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-14T18:30:50.279+0000] {taskinstance.py:1383} INFO - Executing <Task(BashOperator): templated> on 2015-06-27 00:00:00+00:00
+[2022-12-14T18:30:50.334+0000] {standard_task_runner.py:55} INFO - Started process 531 to run task
+[2022-12-14T18:30:50.344+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'tutorial', 'templated', 'scheduled__2015-06-27T00:00:00+00:00', '--job-id', '92', '--raw', '--subdir', 'DAGS_FOLDER/hello_word.py', '--cfg-path', '/tmp/tmp5h8xytvr']
+[2022-12-14T18:30:50.344+0000] {standard_task_runner.py:83} INFO - Job 92: Subtask templated
+[2022-12-14T18:30:51.347+0000] {task_command.py:376} INFO - Running <TaskInstance: tutorial.templated scheduled__2015-06-27T00:00:00+00:00 [running]> on host c1557a7da2d6
+[2022-12-14T18:30:53.135+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=***@example.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=tutorial
+AIRFLOW_CTX_TASK_ID=templated
+AIRFLOW_CTX_EXECUTION_DATE=2015-06-27T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2015-06-27T00:00:00+00:00
+[2022-12-14T18:30:53.139+0000] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2022-12-14T18:30:53.140+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '\n    \n        echo "2015-06-27"\n        echo "2015-07-04"\n        echo "Parameter I passed in"\n    \n        echo "2015-06-27"\n        echo "2015-07-04"\n        echo "Parameter I passed in"\n    \n        echo "2015-06-27"\n        echo "2015-07-04"\n        echo "Parameter I passed in"\n    \n        echo "2015-06-27"\n        echo "2015-07-04"\n        echo "Parameter I passed in"\n    \n        echo "2015-06-27"\n        echo "2015-07-04"\n        echo "Parameter I passed in"\n    ']
+[2022-12-14T18:30:53.266+0000] {subprocess.py:86} INFO - Output:
+[2022-12-14T18:30:53.274+0000] {subprocess.py:93} INFO - 2015-06-27
+[2022-12-14T18:30:53.274+0000] {subprocess.py:93} INFO - 2015-07-04
+[2022-12-14T18:30:53.274+0000] {subprocess.py:93} INFO - Parameter I passed in
+[2022-12-14T18:30:53.274+0000] {subprocess.py:93} INFO - 2015-06-27
+[2022-12-14T18:30:53.275+0000] {subprocess.py:93} INFO - 2015-07-04
+[2022-12-14T18:30:53.275+0000] {subprocess.py:93} INFO - Parameter I passed in
+[2022-12-14T18:30:53.275+0000] {subprocess.py:93} INFO - 2015-06-27
+[2022-12-14T18:30:53.275+0000] {subprocess.py:93} INFO - 2015-07-04
+[2022-12-14T18:30:53.275+0000] {subprocess.py:93} INFO - Parameter I passed in
+[2022-12-14T18:30:53.276+0000] {subprocess.py:93} INFO - 2015-06-27
+[2022-12-14T18:30:53.276+0000] {subprocess.py:93} INFO - 2015-07-04
+[2022-12-14T18:30:53.276+0000] {subprocess.py:93} INFO - Parameter I passed in
+[2022-12-14T18:30:53.276+0000] {subprocess.py:93} INFO - 2015-06-27
+[2022-12-14T18:30:53.276+0000] {subprocess.py:93} INFO - 2015-07-04
+[2022-12-14T18:30:53.276+0000] {subprocess.py:93} INFO - Parameter I passed in
+[2022-12-14T18:30:53.277+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2022-12-14T18:30:53.526+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=tutorial, task_id=templated, execution_date=20150627T000000, start_date=20221214T183049, end_date=20221214T183053
+[2022-12-14T18:30:53.929+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-14T18:30:54.244+0000] {taskinstance.py:2623} INFO - 0 downstream tasks scheduled from follow-on schedule check
